@@ -468,7 +468,7 @@ class BurpExtender(IBurpExtender, IContextMenuFactory, ITab, IExtensionStateList
     self._jPanelConstraints.gridwidth = 1
     self._jPanel.add(self._jLabelPortListen, self._jPanelConstraints)
 
-    self._jTextFieldPortListen = swing.JTextField("9090",3)
+    self._jTextFieldPortListen = swing.JTextField("9093",3)
     self._jPanelConstraints.fill = awt.GridBagConstraints.HORIZONTAL
     self._jPanelConstraints.gridx = 1
     self._jPanelConstraints.gridy = 7
